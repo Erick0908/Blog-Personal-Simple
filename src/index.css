@@ -1,0 +1,37 @@
+#img {
+  background-image: url("../src/Component/Styles/img/nbabest.jpg");
+}
+
+.p{
+  font-size: 25px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.note {
+  color: gray;
+  margin: 8px 0;
+}
+
+input.active:valid {
+  box-shadow: 0 0 5px 1px green;
+}
+
+input.active:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.btnEliminar {
+      height: auto;
+      width: auto;
+}
+
+.btnEliminar:hover {
+  height: auto;
+  width: auto;
+}
